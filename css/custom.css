@@ -2,9 +2,8 @@
   --bs-head-color: black;
   --bs-menu-color: black;
 }
-.masthead {
-  height: 100vh;
-}
+
+
 .bg-menu { 
   background-color: var(--bs-menu-color) !important; 
 }
@@ -28,18 +27,25 @@
 .bg-home1 {
   background: linear-gradient(to right, transparent, var(--bs-head-color)),
     url("../assets/img/ronaldo.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .bg-home2 {
   background: linear-gradient(to left, transparent, var(--bs-head-color)),
       url("../assets/img/dhoni.jpg");
-      background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 @media (max-width: 720px) {
   .bg-home3 {
-    background: url("../assets/img/bg4.jpg");
-    background-size: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), var(--bs-head-color)),
+      url("../assets/img/dhoni.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .h-100vh {
+    height: 100vh;
   }
 }
 
@@ -91,6 +97,9 @@
 .color-2 {
   color: gold;
 }
+.color-3 {
+  color: rgb(247, 166, 17);
+}
 .font1 {
   font-size: 2.5rem;
 }
@@ -102,4 +111,7 @@
 }
 .font-game {
   font-family: 'Games', sans-serif;
+}
+.text-justify {
+  text-align: justify !important;
 }
