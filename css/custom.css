@@ -11,7 +11,7 @@
 .bg-primary1 {
   /* background-image: url('../assets/img/bg1.jpg'); */
   background-repeat: no-repeat;
-  background-color: var(--bs-head-color);
+  background-color: var(--bs-head-color) !important;
 }
 .bg-alternate {
   /*background-color: #2c3e50 !important; */
@@ -22,6 +22,11 @@
 }
 .bg-alternate2 {
   background-image: url('../assets/img/bg3.jpg');
+}
+.bg-alternate3 {
+  background-image: url('../assets/img/bg5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-home1 {
@@ -99,6 +104,9 @@
 }
 .color-3 {
   color: rgb(247, 166, 17);
+}
+.color-4 {
+  color: black !important;
 }
 .font1 {
   font-size: 2.5rem;
