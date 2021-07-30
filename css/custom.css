@@ -2,7 +2,9 @@
   --bs-head-color: black;
   --bs-menu-color: black;
 }
-
+.masthead {
+  height: 100vh;
+}
 .bg-menu { 
   background-color: var(--bs-menu-color) !important; 
 }
@@ -34,10 +36,27 @@
       url("../assets/img/dhoni.jpg");
       background-size: 100%;
 }
+@media (max-width: 720px) {
+  .bg-home3 {
+    background: url("../assets/img/bg4.jpg");
+    background-size: 100%;
+  }
+}
 
 .box1 {
   padding: 2rem 1rem;
   border: none !important;
+}
+
+.box3 {
+  padding: 1.5rem 0.5rem;
+  border: none !important;
+}
+
+.box2 {
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: #0505BB;
 }
 
 .bg-color1 {
