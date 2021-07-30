@@ -1,0 +1,86 @@
+:root {
+  --bs-head-color: black;
+  --bs-menu-color: black;
+}
+
+.bg-menu { 
+  background-color: var(--bs-menu-color) !important; 
+}
+
+.bg-primary1 {
+  /* background-image: url('../assets/img/bg1.jpg'); */
+  background-repeat: no-repeat;
+  background-color: var(--bs-head-color);
+}
+.bg-alternate {
+  /*background-color: #2c3e50 !important; */
+  background-image: url('../assets/img/bg2.jpg');
+}
+.bg-alternate1 {
+  background-color: #111 !important;
+}
+.bg-alternate2 {
+  background-image: url('../assets/img/bg3.jpg');
+}
+
+.bg-home1 {
+  background: linear-gradient(to right, transparent, var(--bs-head-color)),
+    url("../assets/img/ronaldo.jpg");
+  background-size: 100%;
+}
+
+.bg-home2 {
+  background: linear-gradient(to left, transparent, var(--bs-head-color)),
+      url("../assets/img/dhoni.jpg");
+      background-size: 100%;
+}
+
+.box1 {
+  padding: 2rem 1rem;
+  border: none !important;
+}
+
+.bg-color1 {
+  background-color: #2980B9 !important;
+}
+.bg-color2 {
+  background-color: #E74C3C !important;
+}
+.bg-color3 {
+  background-color: #7D6608 !important;
+}
+.bg-color4 {
+  background-color: #17A589 !important;
+}
+.bg-color5 {
+  background-color: #F4D03F !important;
+}
+.bg-color-animation {
+  animation: change-button 5s infinite;
+}
+@keyframes change-button {
+  0%{background-color: #2980B9;}
+  25%{background-color: #E74C3C;}
+  50%{background-color: #7D6608;}
+  75%{background-color: #17A589;}
+  100%{background-color: #f7c912;}
+}
+
+.color-1 {
+  color: #1abc9c;
+}
+.color-2 {
+  color: gold;
+}
+.font1 {
+  font-size: 2.5rem;
+}
+.font2 {
+  font-size: 1.25rem;
+}
+.font-bolder {
+  font-weight: 700 !important;
+}
+.font-game {
+  font-family: 'Games', sans-serif;
+}
