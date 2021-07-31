@@ -1,7 +1,7 @@
 :root {
   --bs-head-color: rgb(4,4,4);
   --bs-menu-color: black;
-  --bs-text-color: black;
+  --bs-text-color: white;
 }
 .text-color {
   color: var(--bs-text-color) !important; 
@@ -13,6 +13,9 @@
 .bg-menu { 
   background-color: var(--bs-menu-color) !important; 
 }
+body { 
+  background-image: url('../assets/img/bg9.png');
+}
 
 .bg-primary1 {
   /* background-image: url('../assets/img/bg1.jpg'); */
@@ -22,10 +25,10 @@
 .bg-alternate {
   /*background-color: #2c3e50 !important; */
   /* background-image: url('../assets/img/bg2.jpg'); */
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 .bg-alternate1 {
-  background-color: #111 !important;
+  /* background-color: #111 !important; */
 }
 .bg-alternate2 {
   /* background-image: url('../assets/img/bg3.jpg'); */
