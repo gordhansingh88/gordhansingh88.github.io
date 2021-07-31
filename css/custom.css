@@ -42,7 +42,7 @@ body {
 
 .bg-home1 {
   background: linear-gradient(to right, transparent, var(--bs-head-color)),
-    url("../assets/img/ronaldo.jpg");
+    url("../assets/img/ronaldo1.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
