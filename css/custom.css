@@ -42,7 +42,7 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-@media (max-width: 720px) {
+@media (max-width: 575.98px) {
   .bg-home3 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), var(--bs-head-color)),
       url("../assets/img/dhoni.jpg");
@@ -52,6 +52,18 @@
   .h-100vh {
     height: 100vh;
   }
+  .page-section {
+    padding: 3rem 0 !important;
+  }
+  .font1 {
+    font-size: 2rem !important;
+  }
+}
+
+.bg-home4 {
+  background-image: url("../assets/img/bg7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .box1 {
