@@ -49,14 +49,14 @@ body {
 
 .bg-home2 {
   background: linear-gradient(to left, transparent, var(--bs-head-color)),
-      url("../assets/img/dhoni.jpg");
+      url("../assets/img/dhoni1.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media (max-width: 575.98px) {
   .bg-home3 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), var(--bs-head-color)),
-      url("../assets/img/dhoni.jpg");
+      url("../assets/img/dhoni1.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
