@@ -42,14 +42,14 @@ body {
 
 .bg-home1 {
   background: linear-gradient(to right, transparent, var(--bs-head-color)),
-    url("../assets/img/ronaldo.jpg");
+    url("../assets/img/ronaldo2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
 .bg-home2 {
   background: linear-gradient(to left, transparent, var(--bs-head-color)),
-      url("../assets/img/dhoni1.jpg");
+      url("../assets/img/dhoni2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
