@@ -56,7 +56,7 @@ body {
 @media (max-width: 575.98px) {
   .bg-home3 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--bs-head-color)),
-      url("../assets/img/dhoni1.jpg");
+      url("../assets/img/ronaldo2.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
