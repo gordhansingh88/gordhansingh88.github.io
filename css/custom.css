@@ -3,6 +3,13 @@
   --bs-menu-color: black;
   --bs-text-color: white;
 }
+@font-face {
+  font-family: ethnocentric;
+  src: url('../fonts/ethnocentric rg.ttf');
+}
+.font-ethnocentric {
+  font-family: ethnocentric;
+}
 .text-color {
   color: var(--bs-text-color) !important; 
 }
