@@ -150,6 +150,9 @@ body {
 .font-game {
   font-family: 'Games', sans-serif;
 }
+.font-7 {
+  font-family: 'Kanit', sans-serif;
+}
 .text-justify {
   text-align: justify !important;
 }
