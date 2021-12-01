@@ -35,7 +35,7 @@ body {
   /* background-color: #ccc; */
 }
 .bg-alternate1 {
-  background-color: #4166f5 !important;
+  background-color: rgb(33, 158, 159) !important;
 }
 .bg-alternate2 {
   background-image: url('../assets/img/bg3.jpg');
