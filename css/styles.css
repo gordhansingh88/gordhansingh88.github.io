@@ -11414,7 +11414,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/bg2.jpg");
+  background-image: linear-gradient(to top, transparent, azure), url("../assets/img/bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
