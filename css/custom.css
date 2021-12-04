@@ -30,12 +30,12 @@ body {
   background-color: var(--bs-head-color) !important;
 }
 .bg-alternate {
-  background-color: rgb(220,57,45) !important; /* #E74C3C !important; */
+  background-color: rgb(33, 158, 159) !important; /* #E74C3C !important; */
   /* background-image: url('../assets/img/bg2.jpg'); */
   /* background-color: #ccc; */
 }
 .bg-alternate1 {
-  background-color: rgb(33, 158, 159) !important;
+  background-color: #E27731 !important;
 }
 .bg-alternate2 {
   background-image: url('../assets/img/bg3.jpg');
